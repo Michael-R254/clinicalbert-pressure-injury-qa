@@ -1,0 +1,78 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Model weights and checkpoints
+# Each models/*/model.safetensors is 411–415 MB (GitHub limit: 100 MB per file).
+# Regenerate with notebooks/model_training.ipynb.
+# ─────────────────────────────────────────────────────────────────────────────
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Hugging Face Trainer output written next to the notebooks when re-training
+notebooks/model_output_*/
+notebooks/logs_*/
+notebooks/saved_model_*/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Raw source datasets (third-party copyrighted guideline PDFs + extracted text)
+# ─────────────────────────────────────────────────────────────────────────────
+notebooks/dataset_generation/sources/PDFs/
+notebooks/dataset_generation/sources/raw/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Regenerable pipeline artefacts
+# qa_validated.jsonl is rebuilt deterministically from qa_raw.jsonl + chunks.jsonl
+# by pressure_ulcer_qa.validation.run_validation().
+# ─────────────────────────────────────────────────────────────────────────────
+notebooks/dataset_generation/pipeline_*/qa_filtered/qa_validated.jsonl
+*.log
+
+# Evaluation run logs (timestamped, rewritten on every run)
+eval_log_*.json
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Jupyter
+# ─────────────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+.virtual_documents/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# OS
+# ─────────────────────────────────────────────────────────────────────────────
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Editors / IDEs
+# ─────────────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

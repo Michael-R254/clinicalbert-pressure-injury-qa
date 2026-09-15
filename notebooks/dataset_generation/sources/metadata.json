@@ -1,0 +1,132 @@
+[
+  {
+    "source_id": "SRC_A01",
+    "category": "A",
+    "title": "EPUAP/NPIAP/PPPIA 2019 Prevention and Treatment of Pressure Ulcers/Injuries: Clinical Practice Guideline",
+    "sections_used": "All chapters",
+    "year": 2019,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.epuap.org/",
+    "licence_notes": "Educational research use"
+  },
+  {
+    "source_id": "SRC_A02",
+    "category": "A",
+    "title": "EPUAP 2025 Clinical Practice Guideline: Etiology of Pressure Injuries",
+    "sections_used": "All sections",
+    "year": 2025,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.epuap.org/",
+    "licence_notes": "Educational research use"
+  },
+  {
+    "source_id": "SRC_A03",
+    "category": "A",
+    "title": "EPUAP 2025 Clinical Practice Guideline: Heel Pressure Injuries",
+    "sections_used": "All sections",
+    "year": 2025,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.epuap.org/",
+    "licence_notes": "Educational research use"
+  },
+  {
+    "source_id": "SRC_A04",
+    "category": "A",
+    "title": "EPUAP 2025 Clinical Practice Guideline: Nutrition and Pressure Injury Prevention",
+    "sections_used": "All sections",
+    "year": 2025,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.epuap.org/",
+    "licence_notes": "Educational research use"
+  },
+  {
+    "source_id": "SRC_A05",
+    "category": "A",
+    "title": "EPUAP 2025 Clinical Practice Guideline: Repositioning and Early Mobilisation",
+    "sections_used": "All sections",
+    "year": 2025,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.epuap.org/",
+    "licence_notes": "Educational research use"
+  },
+  {
+    "source_id": "SRC_A06",
+    "category": "A",
+    "title": "EPUAP 2025 Clinical Practice Guideline: Seating and Wheelchair Positioning",
+    "sections_used": "All sections",
+    "year": 2025,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.epuap.org/",
+    "licence_notes": "Educational research use"
+  },
+  {
+    "source_id": "SRC_A07",
+    "category": "A",
+    "title": "EPUAP 2025 Clinical Practice Guideline: Skin Assessment and Prevention",
+    "sections_used": "All sections",
+    "year": 2025,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.epuap.org/",
+    "licence_notes": "Educational research use"
+  },
+  {
+    "source_id": "SRC_A08",
+    "category": "A",
+    "title": "EPUAP 2025 Clinical Practice Guideline: Support Surfaces and Pressure Redistribution",
+    "sections_used": "All sections",
+    "year": 2025,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.epuap.org/",
+    "licence_notes": "Educational research use"
+  },
+  {
+    "source_id": "SRC_A09",
+    "category": "A",
+    "title": "EPUAP 2024 Guideline: From Screening to Full Pressure Injury Risk Assessment",
+    "sections_used": "All sections",
+    "year": 2024,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.epuap.org/",
+    "licence_notes": "Educational research use"
+  },
+  {
+    "source_id": "SRC_B01",
+    "category": "B",
+    "title": "NICE CG179: Pressure ulcers: prevention and management",
+    "sections_used": "All sections",
+    "year": 2014,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.nice.org.uk/guidance/cg179",
+    "licence_notes": "Open Government Licence v3.0"
+  },
+  {
+    "source_id": "SRC_B02",
+    "category": "B",
+    "title": "NHS England Stop the Pressure Programme: Guidance on Pressure Ulcer Prevention",
+    "sections_used": "All sections",
+    "year": 2018,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.nhs.uk/stopthepressure",
+    "licence_notes": "Open Government Licence v3.0"
+  },
+  {
+    "source_id": "SRC_C01",
+    "category": "C",
+    "title": "Braden Scale for Predicting Pressure Sore Risk: Scale Description and Scoring Guide",
+    "sections_used": "Full document",
+    "year": 2001,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.bradenscale.com/",
+    "licence_notes": "Educational use"
+  },
+  {
+    "source_id": "SRC_C02",
+    "category": "C",
+    "title": "Waterlow Pressure Ulcer Prevention/Treatment Policy",
+    "sections_used": "Full document",
+    "year": 2005,
+    "access_date": "2026-04-29",
+    "url_or_doi": "https://www.judy-waterlow.co.uk/",
+    "licence_notes": "Educational use"
+  }
+]

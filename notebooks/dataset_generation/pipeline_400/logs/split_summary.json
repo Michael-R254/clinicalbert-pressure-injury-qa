@@ -1,0 +1,23 @@
+[
+  {
+    "split": "train",
+    "total": 3740,
+    "answerable": 3140,
+    "unanswerable": 600,
+    "answerable_pct": 84.0
+  },
+  {
+    "split": "val",
+    "total": 497,
+    "answerable": 419,
+    "unanswerable": 78,
+    "answerable_pct": 84.3
+  },
+  {
+    "split": "test",
+    "total": 481,
+    "answerable": 408,
+    "unanswerable": 73,
+    "answerable_pct": 84.8
+  }
+]

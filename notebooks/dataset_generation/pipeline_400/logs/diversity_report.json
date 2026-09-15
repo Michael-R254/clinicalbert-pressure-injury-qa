@@ -1,0 +1,8 @@
+{
+  "chunk_size": 400,
+  "threshold": 0.85,
+  "input_pairs": 5104,
+  "kept": 4718,
+  "discarded": 386,
+  "rephrased_and_kept": 773
+}
