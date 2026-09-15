@@ -262,7 +262,7 @@ clinicalbert-pressure-injury-qa/
     ├── rag_vs_bert_comparison.ipynb      # Stage 5
     └── dataset_generation/
         ├── extract_pdfs.py
-        ├── requirements.txt              # currently empty — see Setup
+        ├── requirements.txt              # Stage 1 dependencies only (minimum versions) — see Setup
         ├── notebooks/
         │   ├── dataset_construction3.ipynb   # Stage 1
         │   └── fig2_question_types.png, fig3_clinical_topics.png,
@@ -298,7 +298,7 @@ The original experiments ran on:
 | GPU | NVIDIA Quadro RTX 8000 |
 | QA generation and LLM judge | Ollama, local `gemma3:12b` |
 
-The package versions below come from that environment. The repo does not yet have a working `requirements.txt`, and **these install commands have not been tested from scratch**.
+The package versions below come from that environment. The existing `notebooks/dataset_generation/requirements.txt` covers Stage 1 only, so use the commands below for the full project. **These install commands have not been tested from scratch.**
 
 ```bash
 conda create -n pu-qa python=3.8 -y
@@ -386,7 +386,7 @@ Run `notebooks/rag_vs_bert_comparison.ipynb`. It needs the raw source text in `s
 - **Model weights are not included.** Each `model.safetensors` is 411–415 MB, which is over GitHub's 100 MB file limit. Re-train with `model_training.ipynb`.
 - **Source PDFs and raw text are not included** (third-party copyright). The generated chunks and SQuAD contexts do still contain verbatim excerpts of those documents.
 - **Paths are hard-coded or out of date** in all four stage notebooks; see [How to run](#0-fix-the-paths-first).
-- **`requirements.txt` is empty.** The versions in [Setup](#setup) were read from the original environment, but installing from them has not been tested.
+- **`requirements.txt` is incomplete.** `notebooks/dataset_generation/requirements.txt` lists Stage 1 packages only: it has no `torch`, `transformers`, `bert-score` or `rank-bm25`. Some of its minimum versions (`scikit-learn>=1.4.0`, `matplotlib>=3.8.0`) need Python 3.9 or newer, while the original environment used Python 3.8.17 with older versions. The versions in [Setup](#setup) were read from that environment, but installing from them has not been tested.
 - **`extract_pdfs.py` doesn't match the corpus that was used.**
   - It maps 21 PDFs to different source IDs (e.g. A01 = Etiology) and overwrites `sources/metadata.json`.
   - The 13-document corpus the pipeline actually used follows the ID scheme in the table above.
@@ -394,7 +394,6 @@ Run `notebooks/rag_vs_bert_comparison.ipynb`. It needs the raw source text in `s
 - **`sources/metadata.json` has some wrong titles and years.**
   - It describes SRC_A01 as the 2019 EPUAP/NPIAP/PPPIA guideline, but the text is the 2025 *Device-Related Pressure Injuries* chapter.
   - The B02, C01 and C02 titles don't match the documents.
-- **Two log files are empty:** `pipeline_*/logs/diversity_report.json` and `split_summary.json` are 0 bytes, although the notebook printed their contents during the run.
 - **LLM generation is not deterministic** (temperature 0.3 for generation, 0.7 for rephrasing). Re-running Stage 1 will not reproduce the same dataset exactly.
 
 **Dataset quality**
